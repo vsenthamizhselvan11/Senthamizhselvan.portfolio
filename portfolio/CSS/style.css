@@ -1,0 +1,25 @@
+body{
+     font-family: "Saira", sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    background: url('../gallery/group\ discussion.jpeg') no-repeat center center/cover;
+    position: relative;
+
+}
+
+.hero::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+ background-color:rgba(0, 0, 0, 0.4)
+
+}
+.hero.container{
+    position: relative;
+    z-index: 2;
+}
